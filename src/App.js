@@ -8,8 +8,8 @@ import NotFound404 from './components/NotFound404/NotFound404';
 import AboutUs from './components/AboutUs/AboutUs';
 import Courses from './components/Courses/Courses';
 import Services from './components/Services/Services';
-import Blog from './components/Blog/Blog';
 import CourseDetails from './components/CourseDetails/CourseDetails';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
             <Services></Services>
           </Route>
           <Route path="/blog">
-            <Blog></Blog>
+            <Blogs></Blogs>
           </Route>
           <Route path="*">
             <NotFound404></NotFound404>

@@ -19,13 +19,13 @@ const Home = () => {
     }
 
     return (
-        <div className="container my-3">
-            <div className="d-flex justify-content-between align-items-center bg-primary rounded">
-                <div className="mx-auto p-3 text-white">
+        <div className="container my-3 ">
+            <div className="row justify-content-between align-items-center bg-primary rounded">
+                <div className="col-sm-12 col-lg-6 mx-auto p-3 text-white">
                     <h1>Welcome to E-School</h1>
                     <article>Dear Parents, Here you will get some practical based courses with the best teachers to ensure your children gets the best learning experience. Get the best service from us.</article>
                 </div>
-                <div>
+                <div className="col-sm-12 col-lg-6">
                     <img className="img-fluid w-75 pb-3" src={image} alt="" />
                 </div>
             </div>

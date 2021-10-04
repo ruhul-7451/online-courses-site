@@ -3,7 +3,7 @@ import React from 'react';
 const NotFound404 = () => {
     return (
         <div>
-            <h1>Error-404 Not Found!</h1>
+            <img className="img-fluid" src="https://image.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-5529.jpg" alt="Error! 404" />
         </div>
     );
 };

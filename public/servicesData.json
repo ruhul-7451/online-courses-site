@@ -1,0 +1,74 @@
+[
+   {
+      "svcId": 201,
+      "svcTitle": "Chemistry",
+      "svcImage": "https://image.freepik.com/free-vector/flat-chemistry-colorful-background_23-2148157680.jpg",
+      "svcDetail": "We do practices in lab with the components and there we do chemistry lab practices",
+      "totalLabs": 3,
+      "tskTeacher": "Mehedi Hasan Moon"
+   },
+   {
+      "svcId": 202,
+      "svcTitle": "Count",
+      "svcImage": "https://image.freepik.com/free-vector/math-addition-10_1308-14827.jpg",
+      "svcDetail": "We do practices in count with the components and there we practices creatie countdown",
+      "totalLabs": 5,
+      "tskTeacher": "Rakib Rahman Tuhin"
+   },
+   {
+      "svcId": 203,
+      "svcTitle": "Exams",
+      "svcImage": "https://image.freepik.com/free-photo/schoolboys-lesson_1098-15893.jpg",
+      "svcDetail": "We do practices in lab with the components and there we do chemistry lab practices",
+      "totalLabs": 9,
+      "tskTeacher": "Shahnul Islam"
+   },
+   {
+      "svcId": 204,
+      "svcTitle": "Time Tables",
+      "svcImage": "https://image.freepik.com/free-vector/times-tables-design-with-blue-background_1308-3027.jpg",
+      "svcDetail": "We do practices in lab with the components and there we do chemistry lab practices",
+      "totalLabs": 1,
+      "tskTeacher": "Yousuf Ali"
+   },
+   {
+      "svcId": 205,
+      "svcTitle": "Creative Labs",
+      "svcImage": "https://image.freepik.com/free-vector/science-retro-concept-set-with-cartoon-education-objects_1284-7500.jpg",
+      "svcDetail": "We do practices in lab with the components and there we do chemistry lab practices",
+      "totalLabs": 4,
+      "tskTeacher": "Faizul Shohan"
+   },
+   {
+      "svcId": 206,
+      "svcTitle": "Geography",
+      "svcImage": "https://image.freepik.com/free-vector/geopraphy-concept-with-retro-cartoon-school-lesson-set_1284-7502.jpg",
+      "svcDetail": "We do practices in lab with the components and there we do chemistry lab practices",
+      "totalLabs": 2,
+      "tskTeacher": "Nusrat Fatem Mim"
+   },
+   {
+      "svcId": 207,
+      "svcTitle": "Art Labs",
+      "svcImage": "https://image.freepik.com/free-vector/children-earth-day-icon_1308-26942.jpg",
+      "svcDetail": "We do practices in lab with the components and there we do chemistry lab practices",
+      "totalLabs": 3,
+      "tskTeacher": "Zarin Tazrin"
+   },
+   {
+      "svcId": 208,
+      "svcTitle": "Prizes",
+      "svcImage": "https://image.freepik.com/free-vector/flat-hand-drawn-people-celebrating-goal-achievement_23-2148831726.jpg",
+      "svcDetail": "We do practices in lab with the components and there we do chemistry lab practices",
+      "totalLabs": 11,
+      "tskTeacher": "Imrana Haque"
+   },
+   {
+      "svcId": 209,
+      "svcTitle": "Microscope",
+      "svcImage": "https://image.freepik.com/free-photo/boy-laboratory-with-microscope_23-2148891867.jpg",
+      "svcDetail": "We do practices in lab with the components and there we do chemistry lab practices",
+      "totalLabs": 7,
+      "tskTeacher": "Imrana Haque"
+   }
+]
