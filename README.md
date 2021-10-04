@@ -3,7 +3,7 @@
 This is an educational website where you will found that this site is offering primary level kids extra curricular and text book lessons to cover online and offline. At homepage it will show you some popular courses and then there also an option which on click you will be directed to all the courses the site is offering. On the Header Section there is Home - Courses - Services - About > options which will route you to your desire destination you reach by clicked. Speacially the courses has a dynamic routing where you can reach through simple course details to detailed course details - on click "Course Detail".
 
 ## Live Site:
-Live Site[https://mrak-e-school.netlify.app/]
+Netlify Hosted Live Site: https://mrak-e-school.netlify.app/
 
 ## Website Features:
 * Its a React Router focused web site which offers visiting multiple routes without reloading the whole page.
