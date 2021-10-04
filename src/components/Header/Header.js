@@ -3,6 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+
     return (
         <div>
             <Navbar bg="light" expand="lg" className="px-5">
@@ -18,7 +19,7 @@ const Header = () => {
                         <NavLink to="/courses" className="btn btn-primary">Courses</NavLink>
                         <NavLink to="/services" className="btn btn-primary">Services</NavLink>
                         <NavLink to="/about" className="btn btn-primary">About</NavLink>
-                        <NavLink to="/blog" className="btn btn-primary">Blog</NavLink>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

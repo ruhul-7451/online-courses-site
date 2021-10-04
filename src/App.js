@@ -9,7 +9,6 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Courses from './components/Courses/Courses';
 import Services from './components/Services/Services';
 import CourseDetails from './components/CourseDetails/CourseDetails';
-import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -26,7 +25,7 @@ function App() {
           <Route path="/courses">
             <Courses></Courses>
           </Route>
-          <Route path="/course/:courseId">
+          <Route path="/course/:course_Id">
             <CourseDetails></CourseDetails>
           </Route>
           <Route path="/about">
@@ -34,9 +33,6 @@ function App() {
           </Route>
           <Route path="/services">
             <Services></Services>
-          </Route>
-          <Route path="/blog">
-            <Blogs></Blogs>
           </Route>
           <Route path="*">
             <NotFound404></NotFound404>

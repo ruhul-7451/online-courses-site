@@ -6,7 +6,7 @@ const Course = (props) => {
     const { img, title, price, teacher, id } = props;
     const history = useHistory();
     const handleCourseDetails = () => {
-        history.push(`/course/${id}`)
+        history.push(`/course/${id}`);
     }
     return (
         <div>
