@@ -1,24 +1,24 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
-            <Navbar bg="light" expand="lg" className="container">
-                <Navbar.Brand>E-School</Navbar.Brand>
+            <Navbar bg="light" expand="lg" className="px-5">
+                <Navbar.Brand className="text-primary fw-bold fs-3 text-uppercase">E-School</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
-                        className="ms-auto my-2 my-lg-0"
+                        className="ms-auto my-2 my-lg-0 btn-group"
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link> <Link to="/home" className="btn btn-outline-primary">Home</Link> </Nav.Link>
-                        <Nav.Link> <Link to="/courses" className="btn btn-outline-primary">Courses</Link> </Nav.Link>
-                        <Nav.Link> <Link to="/about" className="btn btn-outline-primary">About Us</Link> </Nav.Link>
-                        <Nav.Link> <Link to="/services" className="btn btn-outline-primary">Services</Link> </Nav.Link>
-                        <Nav.Link> <Link to="/blog" className="btn btn-outline-primary">Blog</Link> </Nav.Link>
+                        <NavLink to="/home" className="btn btn-primary">Home</NavLink>
+                        <NavLink to="/courses" className="btn btn-primary">Courses</NavLink>
+                        <NavLink to="/services" className="btn btn-primary">Services</NavLink>
+                        <NavLink to="/about" className="btn btn-primary">About</NavLink>
+                        <NavLink to="/blog" className="btn btn-primary">Blog</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
