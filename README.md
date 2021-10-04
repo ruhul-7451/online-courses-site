@@ -9,6 +9,7 @@ Netlify Hosted Live Site: https://mrak-e-school.netlify.app/
 * Its a React Router focused web site which offers visiting multiple routes without reloading the whole page.
 * There are 4 Routes in the header section(Home - Courses - Services - About) each of them are directed with specific path.
 * On any movement to the directories the header and footer will always be navigated as top and bottom of the page.
+* Also if goes wrong directiories it will show you the "Not Found" page.
 * At Homepage it offers most popular 4 courses and there is another option on button called "Show More" will direct you to all the courses the site offers.
 * Courses Card has a dynamic routing button "Course Details" will direct you the specific course you selected to see more details of the course.
 * At Services - the page shows yearly service charges with BASIC, STANDARD, PREMIUM options.
